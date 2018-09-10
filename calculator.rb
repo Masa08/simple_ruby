@@ -1,3 +1,5 @@
+# ruby最終課題 by hani-san in August batch
+
 puts "Hello, Let's cariculate! Please enter a first number"
 
 # loopの中にある変数は外から呼び出すことができないので、loop文の外で定義しないといけない。そしてその変数を更新する形で、数字を上書きする。
