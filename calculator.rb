@@ -12,7 +12,7 @@ def subtract(f, s)
     puts f - s
 end
 
-def multiple(f, s)
+def multiply(f, s)
     puts f * s
 end
 
@@ -20,7 +20,7 @@ def division(f, s)
     puts f / s
 end
 
-def remainder(f, s)
+def modulo(f, s)
     puts f % s
 end
 
@@ -79,9 +79,9 @@ if operator == "+"
 elsif operator == "-"
     subtract(number, number_second)
 elsif operator == "*"
-    multiple(number, number_second)
+    multiply(number, number_second)
 elsif operator == "/"
     division(number, number_second)
 elsif operator == "%"
-    remainder(number, number_second)
+    modulo(number, number_second)
 end
