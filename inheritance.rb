@@ -20,6 +20,7 @@ end
 class Teacher < Person
     def teach
         puts "I am teaching"
+        # 子クラスから親クラスのprotectedメソッドとprivateメソッドにアクセス可能。
         walk
         dance
     end
@@ -34,5 +35,4 @@ teacher1 = Teacher.new
 # 親クラスのメソッドの呼び出し。
 teacher1.speak
 # もちろん子クラスのメソッドも呼び出すことができる。
-# また子クラスから親クラスのprotectedメソッドとprivateメソッドにアクセス可能。
 teacher1.teach

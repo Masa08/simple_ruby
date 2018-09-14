@@ -46,7 +46,7 @@ pc1 = ScopeResearchClass.new
 pc2 = ScopeResearchClass.new
 
 # private / protected ともに内部から利用可能
-# pc1.internal_use_private_and_protected
+pc1.internal_use_private_and_protected
 
 # # protectedはレシーバーつきでも呼び出し可能
 # # privateはレシーバーつきだと呼び出せず
