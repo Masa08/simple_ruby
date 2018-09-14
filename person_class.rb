@@ -1,3 +1,4 @@
+# ruby 9/13
 class Person
     # attr_accessor:データの読み込みと書き込みを可能にする。
     attr_accessor :name, :age

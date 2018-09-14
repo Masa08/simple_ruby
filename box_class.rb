@@ -1,3 +1,4 @@
+# ruby 9/13
 class Box
     # initializeメソッドはclass_name.newした時に、自動で実行される。
     def initialize(width, height)

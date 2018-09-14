@@ -1,3 +1,4 @@
+# ruby 9/13
 class Calculator
     attr_accessor :first_number, :second_number
 

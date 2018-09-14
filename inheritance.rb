@@ -1,3 +1,4 @@
+# ruby 9/13
 # 親クラスPerson。
 class Person
     def speak
