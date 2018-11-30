@@ -68,7 +68,7 @@ print "Please input operator:"
 operator = ""
 loop do
     operator = gets.chomp
-    break if operator == "+" || operator == "-" || operator == "*" || operator == "/" || operator == "%"
+    break if %w(+ - * / %).include?(operator)
     puts "Invalid operator"
 end
 
